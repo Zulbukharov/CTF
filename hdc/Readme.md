@@ -23,7 +23,16 @@ Note: The flag is not an e-mail address.
 Видно, что для параметров name1 и name2 используются неразбираемые параметры,
 копируем и пытаемся войти с этим данными.
 ```
-
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/8.png "5")
+```
+Отлично, мы смогли войти
+```
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/9.png "5")
+```
+Следующий шаг заключается в анализе сурсов всех вкладок, натыкаемся на
+/secret_area_, доступа к которой у нас нет.
+```
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/7.png "6")
 
 
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/5.png "5")
