@@ -7,8 +7,24 @@ Note: The flag is not an e-mail address.
 ```
 
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/1.png "1")
-![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/2.png "2")
+
+```
+Простая форма с login и password
+Если покапаться в сурсах, можно увидеть, что для отправки запроса, используется
+функция doProcess()
+```
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/3.png "3")
+```
+Объявление и определение данной функции находится в файле jquery-3.2.1.js
+```
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/2.png "2")
+```
+Видно, что для параметров name1 и name2 используются неразбираемые параметры,
+копируем и пытаемся войти с этим данными.
+```
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/4.png "4")
+
+
+
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/5.png "5")
 ![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/6.png "6")
