@@ -13,16 +13,16 @@ Note: The flag is not an e-mail address.
 Если покапаться в сурсах, можно увидеть, что для отправки запроса, используется
 функция doProcess()
 ```
-![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/3.png "3")
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/2.png "3")
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/4.png "4")
 ```
 Объявление и определение данной функции находится в файле jquery-3.2.1.js
 ```
-![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/2.png "2")
+![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/3.png "2")
 ```
 Видно, что для параметров name1 и name2 используются неразбираемые параметры,
 копируем и пытаемся войти с этим данными.
 ```
-![img](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/4.png "4")
 
 
 
