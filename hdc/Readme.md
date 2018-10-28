@@ -1,2 +1,2 @@
-![alt text](https://github.com/Zulbukharov/ctf/hdc/img/1.png "1")
+![alt text](https://github.com/Zulbukharov/CTF/blob/master/hdc/img/1.png "1")
 
